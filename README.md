@@ -1,16 +1,16 @@
-# Requisitos Funcionais(RF)
+# RF
 
-[x] O usuário deve poder criar uma conta;
-[x] O usuário deve poder obter um extrato da sua conta;
-[x] O usuário deve poder listar todas transações que já ocorreram;
-[x] O usuário deve poder visualizar uma transação única;
+- [x] O usuário deve poder criar uma nova transação;
+- [x] O usuário deve poder obter um resumo da sua conta;
+- [x] O usuário deve poder listar todas transações que já ocorreram;
+- [x] O usuário deve poder visualizar uma transação única;
 
-# Regras de Negócios(RN)
+# RN
 
-[x] A transação pode do tipo crédito que somará ao valor total, ou débito que será subtraído;
-[ ] Deve ser possível identificar o usuário entre as requisições;
-[ ] O usuário só pode visualizar transações que ele criou;
+- [x] A transação pode ser do tipo crédito que somará ao valor total, ou débito subtrairá;
+- [x] Deve ser possível identificarmos o usuário entre as requisições;
+- [x] O usuário só pode visualizar transações o qual ele criou;
 
-# Regras Não Funcionais(RNF)
+# Link para o deploy
 
-[] Será criado ao longo da aplicação;
+[API Deploy no Render](https://zero2-api-rest-nodejs-5jr4.onrender.com/transactions)
